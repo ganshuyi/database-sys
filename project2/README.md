@@ -217,7 +217,7 @@ typedef struct entry {
 
 Figure below shows the workflow of disk-based B+ tree.
 
-![flowchart_final_](diag.PNG)
+![flowchart_final_](diag.png)
 
 <br/>
 
@@ -279,8 +279,8 @@ User inputs the following command at command prompt:
 The following image shows the output of the program.
 <br/>
 
-![output1](output1.PNG)
-![output2](output2.PNG)
+![output1](output1.png)
+![output2](output2.png)
 <br/>
 
 After the program finished processing the text file, program will ask for user input to modify the B+ tree. After inputting `q`, the program is terminated.

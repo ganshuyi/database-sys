@@ -74,7 +74,7 @@ A Makefile is provided for compiling convenience. To compile, the following inpu
 
 The diagram below shows a flowchart of the call path of three-pass recovery.
 
-![flowchart](diag.PNG)
+![flowchart](diag.png)
  
 The three-pass recovery algorithm is executed when the program calls `init_db` function.
 <br/><br/>
@@ -109,7 +109,7 @@ The log message file is closed after writing and `init_db` function returns 0. R
 
 The diagram below shows the flowchart of this program. <br/>
 
-![Capture2](diag2.PNG)
+![Capture2](diag2.png)
 
 This is a summary of the workflow of the on-disk B+ tree which supports **ARIES recovery**.
 <br/><br/>

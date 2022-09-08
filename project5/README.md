@@ -129,7 +129,7 @@ The old record value is replaced by new user-input value. If success, return 0. 
 
 The diagram below shows the flowchart of this program.
 
-![Capture](Capture.PNG)
+![Capture](Capture.png)
 <br/><br/>
 This is a summary of the workflow of the on-disk B+ tree implemented with buffer and lock manager program.
 <br/><br/>
@@ -181,8 +181,8 @@ User inputs `./main` at command prompt.
 <br/><br/>
 The following image shows the output of the program.
 
-![output1](output1.PNG) <br/>
-![output2](output2.PNG)
+![output1](output1.png) <br/>
+![output2](output2.png)
 
 The program opens and processes datafile *sample_10000.db*. Then it receives user input. Command `f 1000` returns the key and its value 1000 is printed. Command `u 1000 new_value` updates the key with specified new value. Using command `f 1000`, the program searches said key and returns the updated value.
 <br/><br/>

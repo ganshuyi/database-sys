@@ -48,7 +48,7 @@ A Makefile is provided for compiling convenience. To compile, the following inpu
 
 The flowchart diagram below shows the workflow of the lock table implementation.
 <br/><br/>
-![Capture](Capture.PNG)
+![Capture](Capture.png)
 <br/><br/>
 First, **init_lock_table()** is called to initialize the data structures required for implementing lock table (i.e. lock latch and hash table). 
 *	Lock table latch is a mutex object of type *pthread_mutex_t* and is initialized using **pthread_mutex_init()** function.

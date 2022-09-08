@@ -51,7 +51,7 @@ A Makefile is provided for compiling convenience. To compile, the following inpu
 
 Diagram below shows a detailed program workflow.
 <br/><br/>
-![Capture](diag.PNG)
+![Capture](diag.png)
 <br/><br/>
 This is a summary of the workflow of the on-disk B+ tree implemented with buffer manager program.
 <br/><br/>
@@ -113,7 +113,7 @@ User inputs the following at command prompt:
 
 The following image shows the output of the program.
 <br/><br/>
-![output](output.PNG)
+![output](output.png)
 <br/><br/>
 The program processes the text file by first initializing buffer to 10 frames, then opens a datafile named **bpt_data.db** (data file will be created if it does not exist). A table ID is assigned to the data file, in this case table ID is 1. Then, the program carries out insert and delete commands in the text file. Buffer is updated accordingly. Subsequent find and delete commands are carried out by the program.
 <br/><br/>
