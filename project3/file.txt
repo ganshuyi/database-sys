@@ -1,0 +1,7 @@
+initialise 10
+open sample_10000.db
+insert 10005 John
+insert 10008 Dan
+find 114
+find 9999
+delete 9999

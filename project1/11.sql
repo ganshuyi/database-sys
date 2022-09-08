@@ -1,0 +1,3 @@
+SELECT P.ID, P.name
+FROM Pokemon P
+ORDER BY P.ID ASC

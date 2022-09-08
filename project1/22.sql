@@ -1,0 +1,4 @@
+SELECT P.type, COUNT(*)
+FROM Pokemon P
+GROUP BY P.type
+ORDER BY COUNT(*) ASC, P.type ASC
